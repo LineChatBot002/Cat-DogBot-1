@@ -1,0 +1,69 @@
+{
+  "line": {
+    "type": "flex",
+    "contents": {
+      "body": {
+        "contents": [
+          {
+            "type": "text",
+            "align": "start",
+            "text": "คลินิกคนรักสัตว์",
+            "weight": "bold",
+            "wrap": true
+          },
+          {
+            "color": "#D499B9",
+            "type": "separator",
+            "margin": "sm"
+          },
+          {
+            "margin": "lg",
+            "text": "เอกาทศรถ ตำบล ในเมือง อำเภอเมืองพิษณุโลก พิษณุโลก 65000",
+            "wrap": true,
+            "type": "text",
+            "weight": "regular"
+          }
+        ],
+        "type": "box",
+        "layout": "vertical"
+      },
+      "direction": "ltr",
+      "type": "bubble",
+      "footer": {
+        "layout": "horizontal",
+        "contents": [
+          {
+            "height": "sm",
+            "style": "primary",
+            "color": "#9DC8C8",
+            "type": "button",
+            "action": {
+              "label": "แผนที่",
+              "uri": "https://www.google.co.th/maps/place/%E0%B8%84%E0%B8%A5%E0%B8%B4%E0%B8%99%E0%B8%B4%E0%B8%81%E0%B8%84%E0%B8%99%E0%B8%A3%E0%B8%B1%E0%B8%81%E0%B8%AA%E0%B8%B1%E0%B8%95%E0%B8%A7%E0%B9%8C/@16.8287091,100.2633926,17z/data=!3m1!4b1!4m5!3m4!1s0x30df97e37f87d64d:0x519ff90e7156562c!8m2!3d16.828704!4d100.2655813?hl=en",
+              "type": "uri"
+            }
+          },
+          {
+            "type": "button",
+            "height": "sm",
+            "style": "primary",
+            "color": "#ED9282",
+            "action": {
+              "text": "วันทำการและเวลาเปิด - ปิด คลินิกคนรักสัตว์",
+              "label": "ข้อมูลทั่วไป",
+              "type": "message"
+            }
+          }
+        ],
+        "spacing": "md",
+        "type": "box"
+      },
+      "styles": {
+        "footer": {
+          "backgroundColor": "#6d819c"
+        }
+      }
+    },
+    "altText": "คลินิกคนรักสัตว์ "
+  }
+}
